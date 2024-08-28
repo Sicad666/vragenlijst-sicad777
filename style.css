@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif; /* Lettertype sans-serif */
+    font-size: 60px; /* Lettergrootte 26 pixels */
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.question-container {
+    display: none;
+}
+
+.completion-message {
+    display: none;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 26px; /* Lettergrootte van de knoppen naar 26 pixels */
+}
+
+input[type="text"] {
+    font-size: 26px; /* Lettergrootte van het invoerveld naar 26 pixels */
+    padding: 5px;
+    width: calc(100% - 12px);
+    margin-top: 10px;
+}

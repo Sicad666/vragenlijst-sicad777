@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vragenlijst</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Vragenlijst</h1>
+        <div id="question-container" class="question-container">
+            <p id="question">Vraag zal hier verschijnen</p>
+            <input type="text" id="answer" placeholder="Typ je antwoord hier">
+            <div class="buttons">
+                <button id="skip-button">Sla over</button>
+                <button id="next-button">Volgende vraag</button>
+            </div>
+        </div>
+        <div id="completion-message" class="completion-message">
+            <p>Alle vragen zijn beantwoord!</p>
+            <ul id="answer-list"></ul>
+            <p>Screen dit als je wilt :)</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
