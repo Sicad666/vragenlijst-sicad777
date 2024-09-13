@@ -3,24 +3,18 @@ const questions = [
     "Hoe lang ben je?",
     "Wat is je favoriete kleur?",
     "Wie bezorgd je een glimlach?",
-    "Wat is je lievelingskleur?",
     "Welke sport(en) doe je?",
-    "Zou je me een knuffel geven?",
-    "Wat voor kleur ogen vind je het mooist?",
-    "Heb je piercing zo ja, waar?",
+    "Als je 1 ding kon veranderen aan jezelf wat zou 't zijn?",
+    "Heb je piercings of tatoeages?",
     "Wat is je lievelingseten?",
     "Wat doe je het liefst in je vrije tijd?",
-    "Wat vind je van deze misschien vreemde manier van vragen stellen?",
-    "Vind je jezelf knap?",
     "Kan je goed zingen?",
-    "Wat doe je graag?",
     "Hoe oud ben je?",
-    "Naar welk land zou je met me willen?",
-    "Favoriete dj?",
-    "Wat vind je van me?",
-    "Favoriete rapper en artiest algemeen?",
-    "Ronaldo of Messi?"
+    "Wat vind je je meest positieve eigenschap?",
+    "Wat was je eerste indruk van mij en tot nu toe?",
+    "Favoriete rapper en/of artiest algemeen?"
 ];
+
 
 let shuffledQuestions = [];
 let currentQuestionIndex = 0;
